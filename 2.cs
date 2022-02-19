@@ -28,15 +28,15 @@
 	int even;
 	int result = 0;
 	
-	while (n > 0)
+	while (num > 0)
 	{
-		even = n % 10;
+		even = num % 10;
 		if (even % 2 == 0)
 		{
 			result = result + even;
 		}
 			
-			n = n / 10;
+			num = num / 10;
 	}	
 }
 	
