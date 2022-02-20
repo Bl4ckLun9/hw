@@ -4,36 +4,36 @@
 	int b = 20;
 	int c = 30;
 	
-	int sum_of_two = a + b;
+	int SumOfTwo = a + b;
 }
 // 2. სამი რიცხვის ჯამი
 	int a = 10;
 	int b = 20;
 	int c = 30;
 
-	int sum_of_three = a + b + c; 
+	int SumOfThree = a + b + c; 
 }
 
 {
 // 3. მოცემულია რიცხვი. ავღწეროთ 3 ცვლადი. პირველს მივანიჭოთ მოცემული რიცხვი,
 //მეორეს ცვლადს მივანიჭოთ 3-ით მეტი ვიდრე პირველ ცვლადს, მესამე ცვლადში მოვათავსოთ 1-ლი და მე-2 ცვლადის ჯამი.
-	int num = 5;
-	int first_num;
-	int second_num;
-	int res;
+	int Num = 5;
+	int FirstNum;
+	int SecondNum;
+	int Res;
 
-        first_num = num;
-        second_num = first_num + 3;
-        res = first_num + second_num;
+        FirstNum = Num;
+        SecondNum = FirstNum + 3;
+        Res = FirstNum + SecondNum;
 }
 
 
 {
 // 4. მოცემულია მთელი რიცხვი a. გამოვაცხადოთ ცვლადი sum და მოვათავსოთ მასში მოცემული a რიცხვის შემდეგი და წინა რიცხვების ჯამი.	
 	int a = 7;
-	int sum;
+	int Sum;
 
-	sum = (a - 1) + (a + 1);
+	Sum = (a - 1) + (a + 1);
 }
 
 
@@ -51,18 +51,18 @@
 // 6. ვიპოვოთ მარკუთხედის ფართობი. მოცემულია 2 მთელი დადებითი რიცხვი a და b. ავღწეროთ ცვლადი სახელად area და მივანიჭოთ მართკუთხედის ფართობი.
 	int a = 4;
 	int b = 5;
-	int area;
+	int Area;
 
-	area = a * b;
+	Area = a * b;
 }
 
 {
 // 7. პირობა იგივეა რაც მეორე ამოცანაში ოღონდ ვიპოვოთ პერიმეტრი
 	int a = 4;
 	int b = 5;
-	int perimeter;
+	int Perimeter;
 
-	perimeter = 2 * (a + b);
+	Perimeter = 2 * (a + b);
 }
 
 {
@@ -72,9 +72,9 @@
 	int a = 1;
 	int b = 50;
 	int n = 10;
-	int total;
+	int Total;
 
-	total = (a * 100 + b) * n;
+	Total = (a * 100 + b) * n;
 }
 
 
@@ -82,18 +82,18 @@
 // 9. N მოსწავლე იყოფს K ვაშლს თანაბრად. მორჩენილი ვაშლები რჩება ისევ კალათაში. რამდენი ვაშლი შეხვდება თითოეულ მოსწავლეს?
 	int n = 5;
 	int k = 15;
-	int result;
+	int Result;
 
-	result = k / n;
+	Result = k / n;
 }
 
 {	
 // 10. N მოსწავლე იყოფს K ვაშლს თანაბრად. მორჩენილი ვაშლები რჩება ისევ კალათაში. რამდენი ვაშლი დარჩება კალათაში?
 	int n = 3;
 	int k = 14;
-	int result;
+	int Result;
 
-	result = k % n;
+	Result = k % n;
 }
 
 
