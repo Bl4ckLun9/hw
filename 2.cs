@@ -1,32 +1,34 @@
-//1. მოცემულია სამნიშნა რიცხვი, აღვვწეროთ სამი ცვლადი a1, a2, a3, მოვათავსოთ აღწერილ ცვლადებში რიცხვის ციფრები.
 {
-	int number = 127;
+//1. მოცემულია სამნიშნა რიცხვი, აღვვწეროთ სამი ცვლადი a1, a2, a3, მოვათავსოთ აღწერილ ცვლადებში რიცხვის ციფრები.
+
+	int Number = 127;
 	int a1;
 	int a2;
 	int a3;
 
-	a1 = number / 100;
-	a2 = (number / 10) % 10;
-	a3 = number % 10;
+	a1 = Number / 100;
+	a2 = (Number / 10) % 10;
+	a3 = Number % 10;
 }
 
+{
 //2. მოცემულია მთელი ორნიშნა რიცხვი, აღვწეროთ result ცვლადი და მასში მოვათავსოთ მოცემული რიცხვის ციფრების ჯამი.
-{
-	int number = 97;
-	int result;
-	int firstDigit;
-	int lastDigit;
+	int Number = 97;
+	int Result;
+	int FirstDigit;
+	int LastDigit;
 	
-	firstDigit = number / 10;
-	lastDigit = number % 10;
-  	result = firstDigit + lastDigit;
+	FirstDigit = Number / 10;
+	LastDigit = Number % 10;
+  	Result = FirstDigit + LastDigit;
 }
 
-//3. მოცემულია ოთხნიშნა რიცხვი, აღვწეროთ result ცვლადი და მასში მოვათავსოთ მოცემული რიცხვის ლუწი ციფრების ჯამი.
+
 {
-	int num = 1234;
-	int even;
-	int result = 0;
+//3. მოცემულია ოთხნიშნა რიცხვი, აღვწეროთ result ცვლადი და მასში მოვათავსოთ მოცემული რიცხვის ლუწი ციფრების ჯამი.
+	int Num = 1234;
+	int Even;
+	int Result = 0;
 	
 	while (num > 0)
 	{
@@ -37,7 +39,19 @@
 		}
 			
 			num = num / 10;
-	}	
+	}
+}
+
+{
+//იგივე რაც 3. დავალება
+	int Num = 1234;
+	int Result;
+	int FirstDigit;
+	int SecondDigit;
+	int ThirdDigit;
+	int LastDigit;
+	
+	FirstDigit = Num / 1000;
 }
 	
 	
