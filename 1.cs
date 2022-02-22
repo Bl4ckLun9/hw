@@ -132,5 +132,16 @@
 {
 	int num = 1234;
 	int result;
+	int firstDigit;
+	int secondDigit;
+	int thirdDigit;
+	int fourthDigit;	
 	
+	
+	firstDigit = ((num / 1000) % 2 - 1) * -1 * (num / 1000);
+	secondDigit = (((num / 100) % 10) % 2 - 1) * -1 * (num / 100) % 10;
+	thirdDigit = (((num / 10) % 10) % 2 - 1) * -1 * (num / 10) % 10;
+	fourthDigit = ((num % 10) % 2 - 1) * -1 * (num % 10);
+		
+	result = firstDigit + secondDigit + thirdDigit + fourthDigit;
 }
