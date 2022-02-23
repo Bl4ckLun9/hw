@@ -145,3 +145,33 @@
 		
 	result = firstDigitForEven + secondDigitForEven + thirdDigitForEven + fourthDigitForEven;
 }
+/*17. მოცემულია 2 ნატურალური რიცხვი n და m. თუ ერთი იყოფა მეორეზე მთელად გამოვიტანოთ 1 თუ არა და ნებისმიერი სხვა რიცხვი. მოვათავსოთ result ცვლადში ამოცანის შედეგი
+მაგალითები:
+Input Output
+2 8 1
+Input Output
+8 2 1
+*/
+{
+	int n = 4;
+	int m = 8;
+	int remainOfN;
+	int remainOfM;
+	int result;
+	
+	remainOfN = n % m;
+	remainOfM = m % n;
+
+	result = remainOfN * remainOfM + 1;
+	
+	
+}
+
+/*მოცემულია რიცხვი, თუ დადებითია იგივე რიცხვი შევინახოთ რეზალტში, თუ უარყოფითია დადებითად ვაქციოთ და ეგ შევინახოთ
+9 -> 9
+-17-> 17*/
+{
+	
+	
+	
+}
