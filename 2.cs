@@ -23,3 +23,7 @@
 
 
 // 6. Create a program to print a multiplication table of a received input number.
+
+
+
+//7. Take an input from a user and find the factorial of a number.
