@@ -8,3 +8,13 @@
 
 
 // 3. Take a positive integer (x) from a user and print numbers from 1 to x, excluding multiples of 7.
+
+
+
+
+
+// 4. Take an input from a user, print the amount of "a" character. Don't use any built-in string functions.
+
+
+
+// 5. Create a program with a looped input, don't quit until the received input is a number 0.
