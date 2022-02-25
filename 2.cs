@@ -27,3 +27,8 @@
 
 
 //7. Take an input from a user and find the factorial of a number.
+
+
+
+
+// 8. Display Fibonacci series up to 10 terms. Note that first two terms are 0 and 1.
