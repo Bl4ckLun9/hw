@@ -18,3 +18,8 @@
 
 
 // 5. Create a program with a looped input, don't quit until the received input is a number 0.
+
+
+
+
+// 6. Create a program to print a multiplication table of a received input number.
