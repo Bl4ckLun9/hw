@@ -84,3 +84,14 @@
 
 // 26. Create a function with one arugment (a number) which returns a boolean (True or False) in case if a number is a prime or not.
 
+// 27. Create a function that checks if the received string is a palindrome. (It's a palindrome/It's not a palindrome)
+
+// 28. Create a function that checks if two received strings are anagrams. ("They are anagrams/They are not anagrams")
+
+/* 29. Create a function. Add 'ing' at the end of a given string (length should be at least 3).
+ If the given string already ends with 'ing' then add 'ly' instead.
+ If the string length of the given string is less than 3, leave it unchanged.
+*/
+
+// 30. Create a program to format a number with a percentage. Write two versions using .format() and f-strings. Example: 0.25 output should be 25%.
+
