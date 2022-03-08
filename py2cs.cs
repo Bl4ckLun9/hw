@@ -78,4 +78,9 @@
 
 // 23. Take an input from a user (if 0, exit), print horizontally alligned spaced * character corresponding to the amount of the divisors of the number. Example, if input is 10: * * * *
 
+// 24. Create a function with two arguments (width and height) which prints a * rectangle in the corresponding size.
+
+// 25. Create a function with one argument (a string) which returns a reversed string. Don't use any built-in functions/slicing/index. Example: space - ecaps
+
+// 26. Create a function with one arugment (a number) which returns a boolean (True or False) in case if a number is a prime or not.
 
