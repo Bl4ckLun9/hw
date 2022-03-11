@@ -1,5 +1,22 @@
 // 1. Create an input that takes an integer and outputs "True" for even numbers or "False" for odd numbers. Hint: Result might be an error, try to research "type casting" and fix it.
+{
+   int num;
+	string result;
 
+	Console.Write("Enter a number: ");
+	num = Convert.ToInt32(Console.ReadLine());
+	if (num % 2 == 0)
+       {
+		result = "True";
+       }
+       else
+       {
+		result = "False";
+       }
+
+	Console.WriteLine(result);
+	}
+}
 
 // 2. Create inputs for three numbers, output "True" if first two numbers are equal to or greater than a third number, otherwise output "False".
 
